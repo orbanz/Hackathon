@@ -34,6 +34,41 @@
     "OpenClose":"Monday to Friday from 12:00 to 14:15",
     "latitude":"50.8406400",
     "longitude":"4.3720450"
+  },
+  {
+    "CanteenID":"AN88",
+    "Adress":"Rue d'Arlon 88",
+    "OpenClose":"Monday to Friday from 12:00 to 14:15",
+    "latitude":"50.842610",
+    "longitude":"4.373659"
+  },
+  {
+    "CanteenID":"CHAR",
+    "Adress":"Rue de la Loi 170",
+    "OpenClose":"Monday to Friday from 12:00 to 14:15",
+    "latitude":"50.843417",
+    "longitude":"4.380291"
+  },
+  {
+    "CanteenID":"L130",
+    "Adress":"Rue de la Loi 130",
+    "OpenClose":"Monday to Friday from 12:00 to 14:15",
+    "latitude":"50.843865",
+    "longitude":"4.377480"
+  },
+  {
+    "CanteenID":"L-41",
+    "Adress":"Rue de la Loi 41",
+    "OpenClose":"Monday to Friday from 12:00 to 14:15",
+    "latitude":"50.844799",
+    "longitude":"4.371857"
+  },
+  {
+    "CanteenID":"MADO",
+    "Adress":"Place Madou 1",
+    "OpenClose":"Monday to Friday from 12:00 to 14:15",
+    "latitude":"50.849400",
+    "longitude":"4.369702"
   }
 ]
 }
