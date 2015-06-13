@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0097)ECHackathon.html -->
+<!-- saved from url=(0097) -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta charset="utf-8">
@@ -9,6 +9,25 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <style type="text/css">
+      html, body, #map-canvas { height: 80%; margin: 0; padding: 0;}
+    </style>
+
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf_JsEkMF3QSiMdBtPrSDpRpQUcO8SQE8">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: { lat: -34.397, lng: 150.644},
+          zoom: 8
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 
     <title>Carousel Template for Bootstrap</title>
 
@@ -43,23 +62,23 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="ECHackathon.html#">European Commission</a>
+              <a class="navbar-brand" href="#">European Commission</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="ECHackathon.html#">Home</a></li>
-                <li><a href="ECHackathon.html#about">About</a></li>
-                <li><a href="ECHackathon.html#contact">Contact</a></li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li class="dropdown">
-                  <a href="ECHackathon.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Language <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Language <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="ECHackathon.html#">Action</a></li>
-                    <li><a href="ECHackathon.html#">Another action</a></li>
-                    <li><a href="ECHackathon.html#">Something else here</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
                     <li class="divider"></li>
                     <li class="dropdown-header">Nav header</li>
-                    <li><a href="ECHackathon.html#">Separated link</a></li>
-                    <li><a href="ECHackathon.html#">One more separated link</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
                   </ul>
                 </li>
               </ul>
@@ -89,7 +108,7 @@
               <p>Note: If you're viewing this page via a <code>file://</code>
  URL, the "next" and "previous" Glyphicon buttons on the left and right 
 might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="ECHackathon.html#" role="button">Sign up today</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
             </div>
           </div>
         </div>
@@ -101,7 +120,7 @@ might not load/display properly due to web browser security rules.</p>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget 
 quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor 
 id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="ECHackathon.html#" role="button">Learn more</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -113,16 +132,16 @@ id nibh ultricies vehicula ut id elit.</p>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget 
 quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor 
 id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="ECHackathon.html#" role="button">Browse gallery</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="ECHackathon.html#myCarousel" role="button" data-slide="prev">
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="ECHackathon.html#myCarousel" role="button" data-slide="next">
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -144,7 +163,7 @@ id nibh ultricies vehicula ut id elit.</p>
 euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi 
 leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
  cursus magna.</p>
-          <p><a class="btn btn-default" href="ECHackathon.html#" role="button">View details »</a></p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" height="140" width="140">
@@ -153,7 +172,7 @@ leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
 ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus 
 sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor 
 mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="ECHackathon.html#" role="button">View details »</a></p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" height="140" width="140">
@@ -162,7 +181,7 @@ mauris condimentum nibh.</p>
 in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. 
 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
  ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="ECHackathon.html#" role="button">View details »</a></p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -210,7 +229,7 @@ commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
 tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img data-holder-rendered="true" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500">
+              <div id="map-canvas"></div>
         </div>
       </div>
 
@@ -221,8 +240,8 @@ tellus ac cursus commodo.</p>
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="ECHackathon.html#">Back to top</a></p>
-        <p>© 2014 Company, Inc. · <a href="ECHackathon.html#">Privacy</a> · <a href="ECHackathon.html#">Terms</a></p>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2014 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
