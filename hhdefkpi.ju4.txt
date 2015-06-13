@@ -1,0 +1,26 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   FrontEnd/json/convertcsv.json
+#	new file:   FrontEnd/json/menu.json
+#	renamed:    Resources/dishes/2015-06-11 Fruit.jpg -> Resources/dishes/Friday_Cold.jpg
+#	renamed:    Resources/dishes/2015-06-11 Soup.jpg -> Resources/dishes/Friday_Soup.jpg
+#	renamed:    Resources/dishes/2015-06-11 Soup_resize.jpg -> Resources/dishes/Friday_Soup_resize.jpg
+#	new file:   Resources/dishes/Monday_Cold.jpg
+#	new file:   Resources/dishes/Monday_Soup.jpg
+#	new file:   Resources/dishes/Monday_Soup_resize.jpg
+#	new file:   Resources/dishes/Thursday_Cold.jpg
+#	new file:   Resources/dishes/Thursday_Soup.jpg
+#	new file:   Resources/dishes/Thursday_Soup_resize.jpg
+#	new file:   Resources/dishes/Tuesday_Cold.jpg
+#	new file:   Resources/dishes/Tuesday_Soup.jpg
+#	new file:   Resources/dishes/Tuesday_Soup_resize.jpg
+#	new file:   Resources/dishes/Wednesday_Cold.jpg
+#	new file:   Resources/dishes/Wednesday_Soup.jpg
+#	new file:   Resources/dishes/Wednesday_Soup_resize.jpg
+#
+
