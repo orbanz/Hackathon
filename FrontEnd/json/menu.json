@@ -1,91 +1,7 @@
 {
     "Menu":[
-    {
+        {
         "MenuID":"1",
-        "Price":"0,60",
-        "Menu":"Potage frais",
-        "days":[
-        {
-            "day":"Monday",
-            "name":"Creme de lentilles vertes",
-            "picture":"dishes/Monday_Soup.jpg",
-            "picture_small":"dishes/Monday_Soup_resize.jpg",
-            "vote":"3"
-        },
-        {
-            "day":"Tuesday",
-            "name":"Potage aux tomates",
-            "picture":"dishes/Tuesday_Soup.jpg",
-            "picture_small":"dishes/Tuesday_Soup_resize.jpg",
-            "vote":"2"
-        },
-        {
-            "day":"Wednesday",
-            "name":"Veloute aux champignons",
-            "picture":"dishes/Wednesday_Soup.jpg",
-            "picture_small":"dishes/Wednesday_Soup_resize.jpg",
-            "vote":"2"
-        },
-        {
-            "day":"Thursday",
-            "name":"Veloute de cerfeuil",
-            "picture":"dishes/Thursday_Soup.jpg",
-            "picture_small":"dishes/Thursday_Soup_resize.jpg",
-            "vote":"5"
-        },
-        {
-            "day":"Friday",
-            "name":"Creme de choux-fleurs",
-            "picture":"dishes/Friday_Soup.jpg",
-            "picture_small":"dishes/Friday_Soup_resize.jpg",
-            "vote":"4"
-        }
-        ]
-    },
-    {   
-        "MenuID":"2",
-        "Price":"5,30",
-        "Menu":"Variete d'assiettes froides",
-        "days":[
-        {
-            "day":"Monday",
-            "name":"Patatas bravas et chorizo, sauce ailloli piquante",
-            "picture":"dishes/Monday_Cold.jpg",
-            "picture_small":"dishes/Monday_Cold_resize.jpg",
-            "vote":"3"
-        },
-        {
-            "day":"Tuesday",
-            "name":"Saute de calamar e l'ail",
-            "picture":"dishes/Tuesday_Cold.jpg",
-            "picture_small":"dishes/Tuesday_Cold_resize.jpg",
-            "vote":"2"
-        },
-        {
-            "day":"Wednesday",
-            "name":"Oeufs brouilles au saumon fume",
-            "picture":"dishes/Wednesday_Cold.jpg",
-            "picture_small":"dishes/Wednesday_Cold_resize.jpg",
-            "vote":"5"
-        },
-        {
-            "day":"Thursday",
-            "name":"Fromage de chevre reti et salade de saison",
-            "picture":"dishes/Thursday_Cold.jpg",
-            "picture_small":"dishes/Thursday_Cold_resize.jpg",
-            "vote":"5"
-        },
-        {
-            "day":"Friday",
-            "name":"Saute de boulettes de dinde,coulis de tomates e l'huile de piment",
-            "picture":"dishes/Friday_Cold.jpg",
-            "picture_small":"dishes/Friday_Cold_resize.jpg",
-            "vote":"3"
-        }
-        ]
-    },
-    {   
-        "MenuID":"3",
         "Price":"4,70",
         "Menu":"Plat du jour viande ou poisson (en alternance)",
         "days":[
@@ -127,7 +43,7 @@
         ]
     },
     {   
-        "MenuID":"4",
+        "MenuID":"2",
         "Price":"6.00",
         "Menu":"Plat du jour viande ou poisson (en alternance)",
         "days":[
@@ -164,6 +80,90 @@
             "name":"Saumon e la basquaise, pommes de terre sautees",
             "picture":"dishes/Friday_Fish.jpg",
             "picture_small":"dishes/Friday_Fish_resize.jpg",
+            "vote":"3"
+        }
+        ]
+    },
+    {
+        "MenuID":"3",
+        "Price":"0,60",
+        "Menu":"Potage frais",
+        "days":[
+        {
+            "day":"Monday",
+            "name":"Creme de lentilles vertes",
+            "picture":"dishes/Monday_Soup.jpg",
+            "picture_small":"dishes/Monday_Soup_resize.jpg",
+            "vote":"3"
+        },
+        {
+            "day":"Tuesday",
+            "name":"Potage aux tomates",
+            "picture":"dishes/Tuesday_Soup.jpg",
+            "picture_small":"dishes/Tuesday_Soup_resize.jpg",
+            "vote":"2"
+        },
+        {
+            "day":"Wednesday",
+            "name":"Veloute aux champignons",
+            "picture":"dishes/Wednesday_Soup.jpg",
+            "picture_small":"dishes/Wednesday_Soup_resize.jpg",
+            "vote":"2"
+        },
+        {
+            "day":"Thursday",
+            "name":"Veloute de cerfeuil",
+            "picture":"dishes/Thursday_Soup.jpg",
+            "picture_small":"dishes/Thursday_Soup_resize.jpg",
+            "vote":"5"
+        },
+        {
+            "day":"Friday",
+            "name":"Creme de choux-fleurs",
+            "picture":"dishes/Friday_Soup.jpg",
+            "picture_small":"dishes/Friday_Soup_resize.jpg",
+            "vote":"4"
+        }
+        ]
+    },
+    {   
+        "MenuID":"4",
+        "Price":"5,30",
+        "Menu":"Variete d'assiettes froides",
+        "days":[
+        {
+            "day":"Monday",
+            "name":"Patatas bravas et chorizo, sauce ailloli piquante",
+            "picture":"dishes/Monday_Cold.jpg",
+            "picture_small":"dishes/Monday_Cold_resize.jpg",
+            "vote":"3"
+        },
+        {
+            "day":"Tuesday",
+            "name":"Saute de calamar e l'ail",
+            "picture":"dishes/Tuesday_Cold.jpg",
+            "picture_small":"dishes/Tuesday_Cold_resize.jpg",
+            "vote":"2"
+        },
+        {
+            "day":"Wednesday",
+            "name":"Oeufs brouilles au saumon fume",
+            "picture":"dishes/Wednesday_Cold.jpg",
+            "picture_small":"dishes/Wednesday_Cold_resize.jpg",
+            "vote":"5"
+        },
+        {
+            "day":"Thursday",
+            "name":"Fromage de chevre reti et salade de saison",
+            "picture":"dishes/Thursday_Cold.jpg",
+            "picture_small":"dishes/Thursday_Cold_resize.jpg",
+            "vote":"5"
+        },
+        {
+            "day":"Friday",
+            "name":"Saute de boulettes de dinde,coulis de tomates e l'huile de piment",
+            "picture":"dishes/Friday_Cold.jpg",
+            "picture_small":"dishes/Friday_Cold_resize.jpg",
             "vote":"3"
         }
         ]
