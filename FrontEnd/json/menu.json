@@ -9,30 +9,35 @@
             "day":"Monday",
             "name":"Creme de lentilles vertes",
             "picture":"dishes/Monday_Soup.jpg",
+            "picture_small":"dishes/Monday_Soup_resize.jpg",
             "vote":"3"
         },
         {
             "day":"Tuesday",
             "name":"Potage aux tomates",
             "picture":"dishes/Tuesday_Soup.jpg",
+            "picture_small":"dishes/Tuesday_Soup_resize.jpg",
             "vote":"2"
         },
         {
             "day":"Wednesday",
             "name":"Veloute aux champignons",
             "picture":"dishes/Wednesday_Soup.jpg",
+            "picture_small":"dishes/Wednesday_Soup_resize.jpg",
             "vote":"2"
         },
         {
             "day":"Thursday",
             "name":"Veloute de cerfeuil",
             "picture":"dishes/Thursday_Soup.jpg",
+            "picture_small":"dishes/Thursday_Soup_resize.jpg",
             "vote":"5"
         },
         {
             "day":"Friday",
             "name":"Creme de choux-fleurs",
             "picture":"dishes/Friday_Soup.jpg",
+            "picture_small":"dishes/Friday_Soup_resize.jpg",
             "vote":"4"
         }
         ]
@@ -46,30 +51,35 @@
             "day":"Monday",
             "name":"Patatas bravas et chorizo, sauce ailloli piquante",
             "picture":"dishes/Monday_Cold.jpg",
+            "picture_small":"dishes/Monday_Cold_resize.jpg",
             "vote":"3"
         },
         {
             "day":"Tuesday",
             "name":"Saute de calamar e l'ail",
             "picture":"dishes/Tuesday_Cold.jpg",
+            "picture_small":"dishes/Tuesday_Cold_resize.jpg",
             "vote":"2"
         },
         {
             "day":"Wednesday",
             "name":"Oeufs brouilles au saumon fume",
             "picture":"dishes/Wednesday_Cold.jpg",
+            "picture_small":"dishes/Wednesday_Cold_resize.jpg",
             "vote":"5"
         },
         {
             "day":"Thursday",
             "name":"Fromage de chevre reti et salade de saison",
             "picture":"dishes/Thursday_Cold.jpg",
+            "picture_small":"dishes/Thursday_Cold_resize.jpg",
             "vote":"5"
         },
         {
             "day":"Friday",
             "name":"Saute de boulettes de dinde,coulis de tomates e l'huile de piment",
             "picture":"dishes/Friday_Cold.jpg",
+            "picture_small":"dishes/Friday_Cold_resize.jpg",
             "vote":"3"
         }
         ]
@@ -83,30 +93,35 @@
             "day":"Monday",
             "name":"Saute de boeuf e la moutarde, chou frise aux lardons, pommes croquettes",
             "picture":"dishes/Monday_Meat.jpg",
+            "picture_small":"dishes/Monday_Meat_resize.jpg",
             "vote":"4"
         },
         {
             "day":"Tuesday",
-            "name":"Filet de lieu noir, sauce e l'estragon, riz sauvage et romanesco",
+            "name":"Dinde, sauce e l'estragon, riz sauvage et romanesco",
             "picture":"dishes/Tuesday_Meat.jpg",
+            "picture_small":"dishes/Tuesday_Meat_resize.jpg",
             "vote":"2"
         },
         {
             "day":"Wednesday",
-            "name":"Emince de porc , sauce aigre- douce, nouilles et legumes chinois",
+            "name":"Emince de porc, sauce aigre- douce, nouilles et legumes chinois",
             "picture":"dishes/Wednesday_Meat.jpg",
+            "picture_small":"dishes/Wednesday_Meat_resize.jpg",
             "vote":"5"
         },
         {
             "day":"Thursday",
-            "name":"Filet de sebaste \"acqua pazza\",gnocchetti sardi et courgettes e l'huile d'olive",
+            "name":"Agneau \"acqua pazza\",gnocchetti sardi et courgettes e l'huile d'olive",
             "picture":"dishes/Thursday_Meat.jpg",
+            "picture_small":"dishes/Thursday_Meat_resize.jpg",
             "vote":"2"
         },
         {
             "day":"Friday",
             "name":"Poulet e la basquaise, pommes de terre sautees",
             "picture":"dishes/Friday_Meat.jpg",
+            "picture_small":"dishes/Friday_Meat_resize.jpg",
             "vote":"5"
         }
         ]
@@ -118,32 +133,37 @@
         "days":[
         {
             "day":"Monday",
-            "name":"Saute de boeuf e la moutarde, chou frise aux lardons, pommes croquettes",
+            "name":"Cabillaud au four, chou frise aux lardons, pommes croquettes",
             "picture":"dishes/Monday_Fish.jpg",
+            "picture_small":"dishes/Monday_Fish_resize.jpg",
             "vote":"5"
         },
         {
             "day":"Tuesday",
             "name":"Filet de lieu noir, sauce e l'estragon, riz sauvage et romanesco",
             "picture":"dishes/Tuesday_Fish.jpg",
+            "picture_small":"dishes/Tuesday_Fish_resize.jpg",
             "vote":"3"
         },
         {
             "day":"Wednesday",
-            "name":"Emince de porc , sauce aigre- douce, nouilles et legumes chinois",
+            "name":"Truite, sauce aigre-douce, nouilles et legumes chinois",
             "picture":"dishes/Wednesday_Fish.jpg",
+            "picture_small":"dishes/Wednesday_Fish_resize.jpg",
             "vote":"4"
         },
         {
             "day":"Thursday",
             "name":"Filet de sebaste \"acqua pazza\",gnocchetti sardi et courgettes e l'huile d'olive",
             "picture":"dishes/Thursday_Fish.jpg",
+            "picture_small":"dishes/Thursday_Fish_resize.jpg",
             "vote":"5"
         },
         {
             "day":"Friday",
-            "name":"Poulet e la basquaise, pommes de terre sautees",
+            "name":"Saumon e la basquaise, pommes de terre sautees",
             "picture":"dishes/Friday_Fish.jpg",
+            "picture_small":"dishes/Friday_Fish_resize.jpg",
             "vote":"3"
         }
         ]
