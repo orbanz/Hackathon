@@ -1,0 +1,53 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   FrontEnd/ECHackathon.html
+#	new file:   FrontEnd/ECHackathon_files/bootstrap.js
+#	new file:   FrontEnd/ECHackathon_files/holder.js
+#	new file:   FrontEnd/ECHackathon_files/ie-emulation-modes-warning.js
+#	new file:   FrontEnd/ECHackathon_files/ie10-viewport-bug-workaround.js
+#	new file:   FrontEnd/ECHackathon_files/jquery.js
+#	new file:   FrontEnd/css/bootstrap-theme.css
+#	new file:   FrontEnd/css/bootstrap-theme.css.map
+#	new file:   FrontEnd/css/bootstrap-theme.min.css
+#	new file:   FrontEnd/css/bootstrap.css
+#	new file:   FrontEnd/css/bootstrap.css.map
+#	new file:   FrontEnd/css/bootstrap.min.css
+#	new file:   FrontEnd/css/nd-carousel.css
+#	new file:   FrontEnd/fonts/glyphicons-halflings-regular.eot
+#	new file:   FrontEnd/fonts/glyphicons-halflings-regular.svg
+#	new file:   FrontEnd/fonts/glyphicons-halflings-regular.ttf
+#	new file:   FrontEnd/fonts/glyphicons-halflings-regular.woff
+#	new file:   FrontEnd/fonts/glyphicons-halflings-regular.woff2
+#	new file:   FrontEnd/js/bootstrap.js
+#	new file:   FrontEnd/js/bootstrap.min.js
+#	new file:   FrontEnd/js/npm.js
+#	new file:   data/RestoAndMenu.xlsx
+#	new file:   data/cia_menu_3 (1).pdf
+#	new file:   data/cia_menu_3.pdf
+#	new file:   data/cia_menu_4.pdf
+#	new file:   data/cia_menu_5.pdf
+#	new file:   data/cia_prix_cafet_fr.pdf
+#	new file:   data/ec-bxl-map_en.pdf
+#	new file:   data/eur_menu_3.pdf
+#	new file:   data/eur_menu_4.pdf
+#	new file:   data/eur_prix_cafet_fr.pdf
+#	new file:   data/raw data/raw.html
+#	new file:   data/raw data/raw_files/bootstrap.min.js
+#	new file:   data/raw data/raw_files/holder.js
+#	new file:   data/raw data/raw_files/ie-emulation-modes-warning.js
+#	new file:   data/raw data/raw_files/ie10-viewport-bug-workaround.js
+#	new file:   data/raw data/raw_files/jquery.min.js
+#	new file:   data/uni_menu_3.pdf
+#	new file:   data/uni_menu_4.pdf
+#	new file:   data/uni_menu_5.pdf
+#	new file:   data/uni_prix_cantines_fr.pdf
+#
+# Untracked files:
+#	Hackathon/
+#
+
