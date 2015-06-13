@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>EC Canteens</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <style>
       html, body, #map-canvas {
-        height: 80%;
+        height: 100%;
         margin: 0px;
         padding: 0px
       }
@@ -21,16 +21,24 @@ function initialize() {
   };
   map = new google.maps.Map(document.getElementById('map-canvas'),
       mapOptions);
+  var icon = {
+        url: 'resto32.png',
+        size: new google.maps.Size(32,32),
+        origin:new google.maps.Point(0,0),
+        anchor:new google.maps.Point(0,0)
+      };
   var marker = new google.maps.Marker({
       position: new google.maps.LatLng(50.8434830,4.3825600),
       map: map,
-      title: 'BERL'
+      title: 'BERL',
+      icon: icon
   });
 
   var marker2 = new google.maps.Marker({
       position: new google.maps.LatLng(50.8398990,4.3836140),
       map: map,
-      title: 'B232'
+      title: 'B232',
+      icon: icon
   });
 
   google.maps.event.addListener(marker, 'click', function() {
