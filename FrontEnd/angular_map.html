@@ -5,6 +5,8 @@
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="http://ec.europa.eu/wel/template-2013/stylesheets/ec.css" />
+    <link rel="stylesheet" href="http://ec.europa.eu/wel/ec_portal/stylesheets/styles-splash.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script>
@@ -13,8 +15,25 @@
     <script src="js/map-controller.js"></script>
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 </head>
-<body ng-app="appMaps">
-    <div ng-controller="mapCtrl">
+<body ng-app="appMaps" class="euShortContent js desktop" style="position: relative;">
+    <div class="layout layout-noright layout-noleft" id="layout" ng-controller="mapCtrl">
+        <div class="lang-en" id="header">
+            <p class="banner-flag">
+                <img alt="European Commission logo" id="banner-flag" src="//ec.europa.eu/wel/template-2013/images/logo/logo_en.gif" />
+            </p>
+            <p id="banner-title-text">European Commission<br>
+
+            </p>
+
+        </div>
+        <div id="path">
+            <p class="off-screen">Navigation path</p>
+            <ul class="reset-list">
+                <li class="first">
+                    <a href="/">European Commission Canteens</a>
+                </li>
+            </ul>
+        </div>
         <ui-gmap-google-map center="map.center"
         zoom="map.zoom" draggable="true" options="map.options"
         events="map.events">
@@ -31,28 +50,28 @@
     </ui-gmap-google-map>
     <div ng-show="showList" class="animate-show">
         <ul ng-repeat="canteen in canteenData.Canteens" class="list-group">
-            <li class="list-group-item"><a href="#" ng-click="clicked(canteen.CanteenID)">{{canteen.CanteenID}}<br/>{{canteen.Adress}}<br/>{{canteen.OpenClose}}</a></li>
+            <li class="list-group-item"><a href="#" ng-click="clicked(canteen.CanteenID)"><h1>{{canteen.CanteenID}}</h1><br/><h2>{{canteen.Adress}}<br/>{{canteen.OpenClose}}</h2></a></li>
         </ul>
     </div>
 
     <div ng-hide="showList" class="animate-show">
-        <div  class="list-group">
-            <div  class="list-group-item">{{actCanteen.CanteenID}}<br/>{{actCanteen.Adress}}<br/>{{actCanteen.OpenClose}}
-            </div>
-            <div class="list-group-item">
-                <ul ng-repeat="menu in menuData.Menu" class="list-group">
-                    <li class="list-group-item">{{menu.Menu}} {{menu.Price}}<br/>
-                        <ul ng-repeat="day in menu.days" class="list-group">
-                            <li class="list-group-item">
-                                {{day.day}} {{day.name}} 
-                                <img ng-src="{{day.picture}}" />
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+        <a href="" ng-click="showList=true"><img src="back_32.png" /> <h1>Back to the list</h1></a><div  class="list-group">
+        <div  class="list-group-item"><h1>{{actCanteen.CanteenID}}</h1><br/><h2>{{actCanteen.Adress}}</h2><br/><h2>{{actCanteen.OpenClose}}</h2>
+        </div>
+        <div class="list-group-item">
+            <ul ng-repeat="menu in menuData.Menu" class="list-group">
+                <li class="list-group-item"><h1>{{menu.Menu}} {{menu.Price}}</h1><br/>
+                    <ul ng-repeat="day in menu.days" class="list-group">
+                        <li class="list-group-item">
+                            <h2>{{day.day}} {{day.name}} </h2><br/>
+                            <img ng-src="{{day.picture_small}}" />
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
+</div>
 </div>
 </body>
 </html>
