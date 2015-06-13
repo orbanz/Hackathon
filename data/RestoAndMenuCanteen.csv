@@ -1,9 +1,9 @@
-CanteenID;Adress;OpenClose time;;;;
-BERL;Rue de la Loi 200;Monday to Friday from 12 p.m. to 2.15 p.m.;;;;
-B232;Rue Breydel, 4;Monday to Friday from 12:00 to 14:15;;;;
-BU-5;Av. de Beaulieu 5;Monday to Friday from 12:00 to 14:15.;;;;
-MO34;Rue Montoyer, 34;Monday to Friday from 12:00 to 14:15;;;;
-MO59;Rue Montoyer, 59;;;;;
+CanteenID;Adress;OpenClose time;lattitude;longitude;;
+BERL;Rue de la Loi 200;Monday to Friday from 12 p.m. to 2.15 p.m.;50,8434830;4,3825600;;
+B232;Rue Breydel, 4;Monday to Friday from 12:00 to 14:15;50,8398990;4,3836140;;
+BU-5;Av. de Beaulieu 5;Monday to Friday from 12:00 to 14:15.;50,8142100;4,4147380;;
+MO34;Rue Montoyer, 34;Monday to Friday from 12:00 to 14:15;50,8411600;4,3709330;;
+MO59;Rue Montoyer, 59;;50,8406400;4,3720450;;
 AN88 ;Rue d'Arlon 88;;;;;
 B-28 ;Rue Belliard 28;;;;;
 B100;Rue Belliard 100;;;;;
@@ -27,9 +27,9 @@ J-70;Rue Demot, 24;;;;;
 J-79;Rue Demot, 28;;;;;
 J-99;Capital Rond Point Shuman9a;;;;;
 C-25;Rue Froissart, 101;;;;;
-CCAB;Rue GenŠve, 1;;;;;
-CDMA;Rue GenŠve, 6-8;;;;;
-CHAR;Rue GenŠve, 12;;;;;
+CCAB;Rue Genève, 1;;;;;
+CDMA;Rue Genève, 6-8;;;;;
+CHAR;Rue Genève, 12;;;;;
 CLOV;Houtweg 23, Evere;;;;;
 COLE;Rue Joseph II, 27;;;;;
 COV2;Rue Joseph II, 30;;;;;
@@ -52,7 +52,7 @@ L-15;Rue de Luxembourg, 40;;;;;
 L-41;Rue de Luxembourg, 46;;;;;
 L-56;Place Mado, 1;;;;;
 L-86;Av. des Nerviens, 105;;;;;
-L102;Square FrŠre Orban, 8 P.;;;;;
+L102;Square Frère Orban, 8 P.;;;;;
 L130;Dennenboslaan 54, Overijse;;;;;
 LX40;(Out of scope);;;;;
 LX46;Av Palmestone, 6/14;;;;;
@@ -210,5 +210,5 @@ W910 Ch. de Wavre 910;;;;;;
 ;;;;;;Metro station Train Station
 ;;;;;;Commission buildings
 ;;;;;;European institutions buildings
-;;;;;;P. Petite Restauration R.Restaurant … la carte B.Brasserie
+;;;;;;P. Petite Restauration R.Restaurant à la carte B.Brasserie
 ;;;;;;WILS Rue de Wilson 16
