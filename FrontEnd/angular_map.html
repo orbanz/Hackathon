@@ -41,11 +41,11 @@
             </div>
             <div class="list-group-item">
                 <ul ng-repeat="menu in menuData.Menu" class="list-group">
-                    <li class="list-group-item">{{menu.Menu}}<br/>
-                        <ul ng-repeat="day in manu.days" class="list-group">
+                    <li class="list-group-item">{{menu.Menu}} {{menu.Price}}<br/>
+                        <ul ng-repeat="day in menu.days" class="list-group">
                             <li class="list-group-item">
-                                {{day.day}} {{day.name}}
-                                <img ng-src="day.picture" />
+                                {{day.day}} {{day.name}} 
+                                <img ng-src="{{day.picture}}" />
                             </li>
                         </ul>
                     </li>
