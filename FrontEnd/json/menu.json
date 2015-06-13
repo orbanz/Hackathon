@@ -1,63 +1,64 @@
-"Menu":[
 {
-    "CanteenID":"BERL",
-    "Price":"0,6",
-    "Menu":"Potage frais",
-    "Monday":"Creme de lentilles vertes",
-    "Tuesday":"Potage aux tomates",
-    "Wednesday":"Veloute aux champignons",
-    "Thursday":"Veloute de cerfeuil",
-    "Friday":"Creme de choux-fleurs"
-    "MondayPicture":"resources/dishes/Monday_Soup.jpg"
-    "TuesdayPicture":"resources/dishes/Tuesday_Soup.jpg"
-    "WednesdayPicture":"resources/dishes/Wednesday_Soup.jpg"
-    "ThursdayPicture":"resources/dishes/Thursday_Soup.jpg"
-    "FridayPicture":"resources/dishes/Friday_Soup.jpg"
-},
-{   
-    "CanteenID":"BERL",
-    "Price":"5,3",
-    "Menu":"Variete d'assiettes froides",
-    "Monday":"Patatas bravas et chorizo, sauce ailloli piquante",
-    "Tuesday":"Saute de calamar e l'ail",
-    "Wednesday":"Oeufs brouilles au saumon fume",
-    "Thursday":"Fromage de chevre reti et salade de saison",
-    "Friday":"Saute de boulettes de dinde,coulis de tomates e l'huile de piment"
-    "MondayPicture":"resources/dishes/Monday_Cold.jpg"
-    "TuesdayPicture":"resources/dishes/Tuesday_Cold.jpg"
-    "WednesdayPicture":"resources/dishes/Wednesday_Cold.jpg"
-    "ThursdayPicture":"resources/dishes/Thursday_Cold.jpg"
-    "FridayPicture":"resources/dishes/Friday_Cold.jpg"
-},
-{   
-    "CanteenID":"BERL",
-    "Price":"4,7",
-    "Menu":"Plat du jour viande ou poisson (en alternance)",
-    "Monday":"Saute de boeuf e la moutarde, chou frise aux lardons, pommes croquettes",
-    "Tuesday":"Filet de lieu noir, sauce e l'estragon, riz sauvage et romanesco",
-    "Wednesday":"Emince de porc , sauce aigre- douce, nouilles et legumes chinois",
-    "Thursday":"Filet de sebaste \"acqua pazza\",gnocchetti sardi et courgettes e l'huile d'olive",
-    "Friday":"Poulet e la basquaise, pommes de terre sautees"
-    "MondayPicture":"resources/dishes/Monday_Meat.jpg"
-    "TuesdayPicture":"resources/dishes/Tuesday_Meat.jpg"
-    "WednesdayPicture":"resources/dishes/Wednesday_Meat.jpg"
-    "ThursdayPicture":"resources/dishes/Thursday_Meat.jpg"
-    "FridayPicture":"resources/dishes/Friday_Meat.jpg"
-},
-{    
-    "CanteenID":"BOUR",
-    "Price":"4,7",
-    "Menu":"Plat du jour viande ou poisson (en alternance)",
-    "Monday":"Filet de bar blanc, sauce aux tomates,poelee mediterraneenne, petes \"mezze penne\"",
-    "Tuesday":"Medaillon de dinde, ratatouille-gratin risoni",
-    "Wednesday":"Caldeirada de poisson",
-    "Thursday":"Merguez d'agneau, couscous aux legumes, sauce harissa",
-    "Friday":"Filet de hoki pane, sauce tartare, epinards et pommes puree"
-    "MondayPicture":"resources/dishes/Monday_Fish.jpg"
-    "TuesdayPicture":"resources/dishes/Tuesday_Fish.jpg"
-    "WednesdayPicture":"resources/dishes/Wednesday_Fish.jpg"
-    "ThursdayPicture":"resources/dishes/Thursday_Fish.jpg"
-    "FridayPicture":"resources/dishes/Friday_Fish.jpg"
-},
-
+    "Menu":[
+    {
+        "CanteenID":"BERL",
+        "Price":"0,6",
+        "Menu":"Potage frais",
+        "Monday":"Creme de lentilles vertes",
+        "Tuesday":"Potage aux tomates",
+        "Wednesday":"Veloute aux champignons",
+        "Thursday":"Veloute de cerfeuil",
+        "Friday":"Creme de choux-fleurs"
+        "MondayPicture":"resources/dishes/Monday_Soup.jpg"
+        "TuesdayPicture":"resources/dishes/Tuesday_Soup.jpg"
+        "WednesdayPicture":"resources/dishes/Wednesday_Soup.jpg"
+        "ThursdayPicture":"resources/dishes/Thursday_Soup.jpg"
+        "FridayPicture":"resources/dishes/Friday_Soup.jpg"
+    },
+    {   
+        "CanteenID":"BERL",
+        "Price":"5,3",
+        "Menu":"Variete d'assiettes froides",
+        "Monday":"Patatas bravas et chorizo, sauce ailloli piquante",
+        "Tuesday":"Saute de calamar e l'ail",
+        "Wednesday":"Oeufs brouilles au saumon fume",
+        "Thursday":"Fromage de chevre reti et salade de saison",
+        "Friday":"Saute de boulettes de dinde,coulis de tomates e l'huile de piment"
+        "MondayPicture":"resources/dishes/Monday_Cold.jpg"
+        "TuesdayPicture":"resources/dishes/Tuesday_Cold.jpg"
+        "WednesdayPicture":"resources/dishes/Wednesday_Cold.jpg"
+        "ThursdayPicture":"resources/dishes/Thursday_Cold.jpg"
+        "FridayPicture":"resources/dishes/Friday_Cold.jpg"
+    },
+    {   
+        "CanteenID":"BERL",
+        "Price":"4,7",
+        "Menu":"Plat du jour viande ou poisson (en alternance)",
+        "Monday":"Saute de boeuf e la moutarde, chou frise aux lardons, pommes croquettes",
+        "Tuesday":"Filet de lieu noir, sauce e l'estragon, riz sauvage et romanesco",
+        "Wednesday":"Emince de porc , sauce aigre- douce, nouilles et legumes chinois",
+        "Thursday":"Filet de sebaste \"acqua pazza\",gnocchetti sardi et courgettes e l'huile d'olive",
+        "Friday":"Poulet e la basquaise, pommes de terre sautees"
+        "MondayPicture":"resources/dishes/Monday_Meat.jpg"
+        "TuesdayPicture":"resources/dishes/Tuesday_Meat.jpg"
+        "WednesdayPicture":"resources/dishes/Wednesday_Meat.jpg"
+        "ThursdayPicture":"resources/dishes/Thursday_Meat.jpg"
+        "FridayPicture":"resources/dishes/Friday_Meat.jpg"
+    },
+    {    
+        "CanteenID":"BOUR",
+        "Price":"4,7",
+        "Menu":"Plat du jour viande ou poisson (en alternance)",
+        "Monday":"Filet de bar blanc, sauce aux tomates,poelee mediterraneenne, petes \"mezze penne\"",
+        "Tuesday":"Medaillon de dinde, ratatouille-gratin risoni",
+        "Wednesday":"Caldeirada de poisson",
+        "Thursday":"Merguez d'agneau, couscous aux legumes, sauce harissa",
+        "Friday":"Filet de hoki pane, sauce tartare, epinards et pommes puree"
+        "MondayPicture":"resources/dishes/Monday_Fish.jpg"
+        "TuesdayPicture":"resources/dishes/Tuesday_Fish.jpg"
+        "WednesdayPicture":"resources/dishes/Wednesday_Fish.jpg"
+        "ThursdayPicture":"resources/dishes/Thursday_Fish.jpg"
+        "FridayPicture":"resources/dishes/Friday_Fish.jpg"
+    }
 ]
+}
