@@ -8,11 +8,11 @@
         "Tuesday":"Potage aux tomates",
         "Wednesday":"Veloute aux champignons",
         "Thursday":"Veloute de cerfeuil",
-        "Friday":"Creme de choux-fleurs"
-        "MondayPicture":"resources/dishes/Monday_Soup.jpg"
-        "TuesdayPicture":"resources/dishes/Tuesday_Soup.jpg"
-        "WednesdayPicture":"resources/dishes/Wednesday_Soup.jpg"
-        "ThursdayPicture":"resources/dishes/Thursday_Soup.jpg"
+        "Friday":"Creme de choux-fleurs",
+        "MondayPicture":"resources/dishes/Monday_Soup.jpg",
+        "TuesdayPicture":"resources/dishes/Tuesday_Soup.jpg",
+        "WednesdayPicture":"resources/dishes/Wednesday_Soup.jpg",
+        "ThursdayPicture":"resources/dishes/Thursday_Soup.jpg",
         "FridayPicture":"resources/dishes/Friday_Soup.jpg"
     },
     {   
@@ -23,11 +23,11 @@
         "Tuesday":"Saute de calamar e l'ail",
         "Wednesday":"Oeufs brouilles au saumon fume",
         "Thursday":"Fromage de chevre reti et salade de saison",
-        "Friday":"Saute de boulettes de dinde,coulis de tomates e l'huile de piment"
-        "MondayPicture":"resources/dishes/Monday_Cold.jpg"
-        "TuesdayPicture":"resources/dishes/Tuesday_Cold.jpg"
-        "WednesdayPicture":"resources/dishes/Wednesday_Cold.jpg"
-        "ThursdayPicture":"resources/dishes/Thursday_Cold.jpg"
+        "Friday":"Saute de boulettes de dinde,coulis de tomates e l'huile de piment",
+        "MondayPicture":"resources/dishes/Monday_Cold.jpg",
+        "TuesdayPicture":"resources/dishes/Tuesday_Cold.jpg",
+        "WednesdayPicture":"resources/dishes/Wednesday_Cold.jpg",
+        "ThursdayPicture":"resources/dishes/Thursday_Cold.jpg",
         "FridayPicture":"resources/dishes/Friday_Cold.jpg"
     },
     {   
@@ -38,11 +38,11 @@
         "Tuesday":"Filet de lieu noir, sauce e l'estragon, riz sauvage et romanesco",
         "Wednesday":"Emince de porc , sauce aigre- douce, nouilles et legumes chinois",
         "Thursday":"Filet de sebaste \"acqua pazza\",gnocchetti sardi et courgettes e l'huile d'olive",
-        "Friday":"Poulet e la basquaise, pommes de terre sautees"
-        "MondayPicture":"resources/dishes/Monday_Meat.jpg"
-        "TuesdayPicture":"resources/dishes/Tuesday_Meat.jpg"
-        "WednesdayPicture":"resources/dishes/Wednesday_Meat.jpg"
-        "ThursdayPicture":"resources/dishes/Thursday_Meat.jpg"
+        "Friday":"Poulet e la basquaise, pommes de terre sautees",
+        "MondayPicture":"resources/dishes/Monday_Meat.jpg",
+        "TuesdayPicture":"resources/dishes/Tuesday_Meat.jpg",
+        "WednesdayPicture":"resources/dishes/Wednesday_Meat.jpg",
+        "ThursdayPicture":"resources/dishes/Thursday_Meat.jpg",
         "FridayPicture":"resources/dishes/Friday_Meat.jpg"
     },
     {    
@@ -53,11 +53,11 @@
         "Tuesday":"Medaillon de dinde, ratatouille-gratin risoni",
         "Wednesday":"Caldeirada de poisson",
         "Thursday":"Merguez d'agneau, couscous aux legumes, sauce harissa",
-        "Friday":"Filet de hoki pane, sauce tartare, epinards et pommes puree"
-        "MondayPicture":"resources/dishes/Monday_Fish.jpg"
-        "TuesdayPicture":"resources/dishes/Tuesday_Fish.jpg"
-        "WednesdayPicture":"resources/dishes/Wednesday_Fish.jpg"
-        "ThursdayPicture":"resources/dishes/Thursday_Fish.jpg"
+        "Friday":"Filet de hoki pane, sauce tartare, epinards et pommes puree",
+        "MondayPicture":"resources/dishes/Monday_Fish.jpg",
+        "TuesdayPicture":"resources/dishes/Tuesday_Fish.jpg",
+        "WednesdayPicture":"resources/dishes/Wednesday_Fish.jpg",
+        "ThursdayPicture":"resources/dishes/Thursday_Fish.jpg",
         "FridayPicture":"resources/dishes/Friday_Fish.jpg"
     }
 ]
